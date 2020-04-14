@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #content {
+            width:200px;
+        }
+
+        ul li{
+            list-style:none;
+            border:1px solid blanchedalmond;
+            font-weight: bold;
+            font-size: 20px;
+            padding:10px;
+        }
+
+        ul li a {
+            color:black;
+        }
+
+        ul li:nth-child(2n+1){
+            background-color: brown;
+        }
+
+        ul li:first-child,ul li:last-child{
+            background-color: darkblue;
+            
+        }
+
+        ul li:first-child{
+            border-radius: 10px 10px 0 0;
+        }
+
+        ul li:last-child{
+            border-radius: 0 0 10px 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="content">
+        <ul>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+        </ul>
+    </div>
+</body>
+</html>

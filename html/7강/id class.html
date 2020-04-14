@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #header{
+            width:500px; border:1px solid blue; font-size:2em;font-weight:bold;text-align:center;
+        }
+
+        #footer{
+            width:500px; border:1px solid blue; font-size:2em;
+            font-weight:bold;text-align:center; background-color: blueviolet;
+        }
+
+        #wrap{
+            width:500px; border: 1px solid blue;
+            overflow:hidden
+        }
+
+        li { color:blue }
+        .menu1{color:red}
+        #content {float:left; width:250px}
+        #side_banner{float:left;}
+    </style>
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>header</h1>
+    </div>
+
+    <div id="wrap">
+        <div id="content">
+            <h1>content</h1>
+        <ul>
+            <li class="menu1">menu1</li>
+            <li class="menu2">menu2</li>
+            <li class="menu3">menu3</li>
+        </ul>
+        </div>
+
+        <div id="side_banner">
+            <h1>banner</h1>
+            <a href="http://google.com" target="_blank"><img src="naruto.jpg" width=100 /></a>
+        </div>
+    </div>
+
+    <div id="footer">
+        <h1>footer</h1>
+    </div>
+</body>
+</html>
